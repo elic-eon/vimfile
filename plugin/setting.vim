@@ -1,7 +1,20 @@
+set nocompatible                      " not compatible with the old-fashion vi mode
+set history=1000                      " keep 1000 lines of command line history
+set undolevels=100                    " 100 step undo
+set autoread                          " auto read when file is changed from outside
+set viminfo=                          " disable .viminfo file
 set nu                                " show linenumber
+filetype on                           " enable filetype detection
+filetype indent on                    " enable filetype-specific indenting
+filetype plugin on                    " enable filetype-specific plugins
 syntax on                             " syntax highlight
 set hlsearch                          " search highlighting
+set incsearch                         " incremental search
 
+"" bo backup file
+set nobackup                          " no *~ backup files
+set noswapfile
+set nowritebackup
 
 "" theme conf
 set t_Co=256                          " using 256-color
