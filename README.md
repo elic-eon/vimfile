@@ -8,3 +8,4 @@
 4. nerdcommenter
 5. vim-colorschemes
 6. colorselector.vim
+6. vim-markdown
