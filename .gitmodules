@@ -13,3 +13,6 @@
 [submodule "bundle/colorselector.vim"]
 	path = bundle/colorselector.vim
 	url = git://github.com/c9s/colorselector.vim.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter
