@@ -19,3 +19,6 @@
 [submodule "vim-markdown"]
 	path = vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/LanguageTool"]
+	path = bundle/LanguageTool
+	url = https://github.com/vim-scripts/LanguageTool.git
